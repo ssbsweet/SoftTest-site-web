@@ -99,7 +99,7 @@ public class TestPage extends PageObject {
 //OPERATIONS
 
     public void getUrl() {
-        assertEquals(driver.getCurrentUrl(), "http://softtest.srv.lan/#/test");
+        assertEquals(driver.getCurrentUrl(), "https://softest.pro/#/test");
     }
     public void hoverCheck() throws InterruptedException {
         WebElement[] solutionBlocks = new WebElement[] {

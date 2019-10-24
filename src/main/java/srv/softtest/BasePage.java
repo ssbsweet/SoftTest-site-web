@@ -103,19 +103,19 @@ public class BasePage extends PageObject {
 
     public void logoClick() {
         this.siteLogo.click();
-        assertEquals(driver.getCurrentUrl(), "http://softtest.srv.lan/#/");
+        assertEquals(driver.getCurrentUrl(), "https://softest.pro/#/");
     }
     public void testButtonClick() {
         this.testButton.click();
-        assertEquals("http://softtest.srv.lan/#/test", driver.getCurrentUrl());
+        assertEquals("https://softest.pro/#/test", driver.getCurrentUrl());
     }
     public void auditButtonClick() {
         this.auditButton.click();
-        assertEquals("http://softtest.srv.lan/#/audit", driver.getCurrentUrl());
+        assertEquals("https://softest.pro/#/audit", driver.getCurrentUrl());
     }
     public void aboutButtonClick() {
         this.aboutButton.click();
-        assertEquals("http://softtest.srv.lan/#/about", driver.getCurrentUrl());
+        assertEquals("https://softest.pro/#/about", driver.getCurrentUrl());
     }
     public void indentForm(String username, String email, String phone, String textMessage) {
         this.username.sendKeys(username);

@@ -49,7 +49,7 @@ public class AuditPage extends PageObject {
 
 //OPERATIONS
     public void getUrl() {
-        assertEquals(driver.getCurrentUrl(), "http://softtest.srv.lan/#/audit");
+        assertEquals(driver.getCurrentUrl(), "https://softest.pro/#/audit");
     }
     public void typesOfAuditBlocksHover() {
         WebElement[] typesOfAuditBlocks = new WebElement[] {

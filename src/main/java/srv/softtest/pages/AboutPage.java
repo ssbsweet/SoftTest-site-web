@@ -35,7 +35,7 @@ public class AboutPage extends PageObject {
 
 //OPERATIONS
     public void getUrl() {
-        assertEquals(driver.getCurrentUrl(), "http://softtest.srv.lan/#/about");
+        assertEquals(driver.getCurrentUrl(), "https://softest.pro/#/about");
     }
     public void socialLinksGo() {
         ArrayList<String> tabs2 = new ArrayList<String>(driver.getWindowHandles());
@@ -52,7 +52,7 @@ public class AboutPage extends PageObject {
             socialButtons[i].click();
             basePage.switchTab();
             softAssert.assertEquals(driver.getCurrentUrl(), socilaUrls[i]);
-            driver.get("http://softtest.srv.lan/#/about");
+            driver.get("https://softest.pro/#/about");
         }
         softAssert.assertAll();
     }

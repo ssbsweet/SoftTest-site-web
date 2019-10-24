@@ -16,7 +16,7 @@ public class TestAuditPage extends BasePage {
     @BeforeMethod
     public void testSetUp() {
         driver = new ChromeDriver();
-        driver.get("http://softtest.srv.lan/#/audit");
+        driver.get("https://softest.pro/#/audit");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         basePage = new BasePage();

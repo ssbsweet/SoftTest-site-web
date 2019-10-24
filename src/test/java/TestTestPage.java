@@ -19,7 +19,7 @@ public class TestTestPage extends BasePage {
     public void testSetUp() {
         driver = new ChromeDriver();
 //        driver = new FirefoxDriver();
-        driver.get("http://softtest.srv.lan/#/test");
+        driver.get("https://softest.pro/#/test");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         basePage = new BasePage();

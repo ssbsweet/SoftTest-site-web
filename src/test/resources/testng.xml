@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Прогон стейджа SoftTest" verbose="2" >
+    <test name="Твое название" >
+        <classes>
+            <class name="TestAboutPage" />
+            <class name="TestAuditPage" />
+            <class name="TestMainPage" />
+            <class name="TestTestPage" />
+        </classes>
+    </test>
+
+</suite>
